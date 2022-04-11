@@ -95,7 +95,6 @@ header nav {
 
 header nav a {
 	color: #dce2f4;
-	background: 	;
 	text-align: center;
 	text-decoration: none;
 	padding: 5px;	
@@ -127,7 +126,7 @@ ul.slidesjs-pagination{
 }
 
 .slidesjs-pagination {
-	background-color: ;
+	
 	width: 150px;
 	overflow: hidden;
 	margin: 10px  auto;
@@ -337,7 +336,7 @@ ul.slidesjs-pagination{
 
 #adu {
 	width:100%;	
-	background:;	
+		
 	overflow: hidden;
 	margin:0px 0px 40px 0px ;
 	padding: 0px 0px;

@@ -2,6 +2,52 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Source Sans Pro, Helvetica, Arial, Aragon;
-    
+    font-family: Source Sans Pro, Helvetica, Arial, Aragon;    
 }
+
+/*HEADER*/
+header{
+    height: 100px;
+    background: #2d2d2d;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #00FAF7;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    /transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: #00FAF7;
+}
+
+#check{
+    display: none;
+}
+    
