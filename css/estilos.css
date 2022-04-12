@@ -60,6 +60,25 @@ header{
     display: none;
 }
 
+/*BANNER*/
+#banner{
+    padding: 0 50px;
+    background-image: url(../imagenes/banner.jpg);
+    height: 84vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner::before{
+    content: '' ;
+    background: rgba(77,77,92,0.5);
+    position: absolute;
+    width: 100%;
+    height: 84vh;
+    left: 0%;
+}
+
+
 /*RESPONSIVE*/
 @media(max-width:768px){
     /*HEADER*/
