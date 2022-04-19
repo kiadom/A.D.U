@@ -53,7 +53,7 @@ header{
 .menu a:hover,
 .mostrar-menu:hover,
 .esconder-menu:hover{
-    color: #9de3ff;
+    color: #ffb19d;
 }
 
 #check{
@@ -110,6 +110,13 @@ header{
     background: #ffc2b360;
 }
 
+/*banner*/
+.contenido-banner h2{
+    font-size: 22px;
+    font-weight: 333;
+    padding: 10px 0px;
+}
+
 /*PERSONAS*/
 
 #personas{
@@ -141,18 +148,42 @@ header{
 .boton-saber-mas{
     display: inline-block;
     padding: 10px 30px;
-    color: #bf92ff;
-    border: 3px solid #bf92ff;
+    color: #c6a0fc;
+    border: 3px solid #c6a0fc;
     border-radius: 30px;
     margin-top: 15px;
-    transition: all 0.7s;
+    transition: all 0.4s;
 }
 
 .boton-saber-mas:hover{
-    background: #bf92ff;
+    background: #c6a0fc;
     color: #fff;
 }
 
+/*ICONOS*/
+
+#iconos{
+    padding: 0px 50px;
+    background: #adae95 ;
+}
+
+.contenido-iconos{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.contenido-iconos div{
+    flex: 1;
+    margin: 20px 0px;
+    border-right: 2px solid rgba(255, 255, 255, 0.2) ;
+}
+
+#icono-estampado{
+    border: none;
+}
 
 /*RESPONSIVE*/
 @media(max-width:768px){
@@ -189,5 +220,12 @@ header{
     #check:checked ~ .menu{
         right: 0;
     }
+    /*personas*/
+    #personas{
+        flex-direction: column;
+    }
+
+
+
 }
     
