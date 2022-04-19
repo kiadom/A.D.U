@@ -164,7 +164,7 @@ header{
 
 #iconos{
     padding: 0px 50px;
-    background: #adae95 ;
+    background: #b4a0ca ;
 }
 
 .contenido-iconos{
@@ -178,12 +178,17 @@ header{
 .contenido-iconos div{
     flex: 1;
     margin: 20px 0px;
-    border-right: 2px solid rgba(255, 255, 255, 0.2) ;
+    border-right: 2px solid rgba(255, 255, 255, 0.5 ) ;
 }
 
 #icono-estampado{
     border: none;
 }
+
+.contenido-iconos i{
+    color: #fff  ;
+}
+
 
 /*RESPONSIVE*/
 @media(max-width:768px){
