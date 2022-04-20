@@ -263,8 +263,9 @@ form textarea{
     border: 2px solid #3C539C;
     padding: 10px 5px;
     outline: 0;
-    color: #000;
+    color: #3C539C;
     width: 100%;
+    font-size: medium;
 }
 
 form input:focus,
@@ -275,7 +276,7 @@ form textarea:focus{
 
 form input::placeholder,
 form textarea::placeholder{
-    color: #5b6a9b;
+    color: #50639e;
 }
 
 .mensaje{
