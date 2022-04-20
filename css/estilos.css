@@ -228,12 +228,13 @@ header{
 #contacto{
     background: #e9b628;
     padding: 50px 0px;
-    color: #fff;
+    color: #3C539C;
 }
 
 #contacto h4{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
@@ -255,8 +256,58 @@ form label{
     margin-bottom: 10px;
 }
 
+form input,
+form textarea{
+    background: #e9b628;
+    border-radius: 10px;
+    border: 2px solid #3C539C;
+    padding: 10px 5px;
+    outline: 0;
+    color: #000;
+    width: 100%;
+}
 
+form input:focus,
+form textarea:focus{
+    border-color: #3C539C;
+    box-shadow: 0 0 0 1px #3C539C;
+}
 
+form input::placeholder,
+form textarea::placeholder{
+    color: #5b6a9b;
+}
+
+.boton-formulario{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.boton-saber-mas-form{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #3C539C;
+    border: 3px solid #3C539C;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+
+.boton-saber-mas-form:hover{
+    background: 
+        display: inline-block;
+        padding: 10px 30px;
+        color: #e9b628;
+        border: 3px solid #e9b628;
+        border-radius: 30px;
+        margin-top: 15px;
+        transition: all 0.4s;
+    }
+    
+    .boton-saber-mas-form:hover{
+        background: #3C539C;
+        color: #fff;
+    };
+}
 
 /*RESPONSIVE*/
 @media(max-width:768px){
