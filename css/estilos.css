@@ -101,7 +101,8 @@ header{
     font-size: 17px;
     color: #fff;
     border: 1px solid #ffb19d;
-    padding: 20px 40px;
+    border-radius: 2px;
+    padding: 17px 35px;
     align-self: baseline;
     transition: 00.4s;
 }
@@ -135,7 +136,7 @@ header{
 }
 
 #personas div h4{
-    color: #2d2d2d;
+    color: #4e5053;
     font-size: 20px;
     margin: 15px 0px;
 }
@@ -164,7 +165,7 @@ header{
 
 #iconos{
     padding: 0px 50px;
-    background: #b4a0ca ;
+    background: #4e5053 ;
 }
 
 .contenido-iconos{
@@ -186,8 +187,75 @@ header{
 }
 
 .contenido-iconos i{
-    color: #fff  ;
+    color: #e9b628;
 }
+
+.contenido-iconos div h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight:100;
+    margin: 10px 0px;
+}
+
+.contenido-iconos div p{
+    color: #828891;
+    font-size: 15px;
+}
+
+.boton-iconos{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.boton-saber-mas-iconos{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #e9b628;
+    border: 3px solid #e9b628;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+
+.boton-saber-mas-iconos:hover{
+    background: #e9b628;
+    color: #4e5053;
+}
+
+
+/*FORMULARIO*/
+
+#contacto{
+    background: #e9b628;
+    padding: 50px 0px;
+    color: #fff;
+}
+
+#contacto h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#contacto form{
+    max-width: 80%;
+    margin:  0 auto;
+}
+
+.datos-form{
+    display: flex;
+}
+
+.datos-form div{
+    padding: 10px;
+    flex: 1;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 
 
 /*RESPONSIVE*/
@@ -202,7 +270,7 @@ header{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2d2d2d;
+        background: #4e5053;
         right: -100%;
         top: 0;
         text-align: center;
@@ -230,7 +298,13 @@ header{
         flex-direction: column;
     }
 
+    /*iconos*/
+    .contenido-iconos{
+        flex-direction: column;
+    }
 
-
+    .contenido-iconos div{
+        border: none;
+    }
 }
     
