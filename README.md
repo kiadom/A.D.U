@@ -1,44 +1,70 @@
-<p align="center">
-    <img src="https://github.com/kiadom/QuimbayaDevReloadedCiclo4/blob/main/images/logoheader.png" width="50%" />
-</p>
+# Getting Started with Create React App
 
-# Sprint 5
-En la rama main se encuentra el código final del Sprint 5 (Finalización del Proyecto). Los pasos para ejecutar el proyecto son:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [Crear el Entorno de Trabajo](#crear-el-entorno-de-trabajo)
-- [Instalar los Módulos](#instalar-los-modulos)
-- [Crear el Archivo de Variables de Entorno](#crear-el-archivo-de-variables-de-entorno)
-- [Iniciar el Servidor](#iniciar-el-servidor)
-- [Explorar las Funcionalidades](#explorar-las-funcionalidades)
+## Available Scripts
 
-<br>
+In the project directory, you can run:
 
-## Crear el Entorno de Trabajo
+### `npm start`
 
-Se puede obtener el proyecto descargandolo, clonandolo, haciendole un fork o pull, lo importante es tenerlo localmente. Abrir dos proyecto en Visual Studio Code, uno dentro de la carpeta frontend y otro dentro de la carpeta backend. Los pasos siguientes se deben hacer en cada una de las dos carpetas
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Instalar los Módulos
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Todos los módulos del proyecto se instalaron usando YARN, por lo tanto en una consola de Visual Studio Code ejecutar el comando:
-```yarn install```
-Esto creará la carpeta node_modules
+### `npm test`
 
-## Crear el Archivo de Variables de Entorno
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Solamente dentro de la carpeta backend, en la raiz del proyecto crear un arhivo con nombre .env (si, empieza con .) en ese archivo escribir la cadena de conexión que se usará para conectarse a la base de datos. Allí escribir la siguiente linea:
-```DATABASE_URL = "DATABASE_URL = "mongodb+srv://JuanMa:rb0erxcyqfdv2aEo@proyectociclo4.cq67b.mongodb.net/GestionProyectos?retryWrites=true&w=majority"```
-```PORT = 4000"```
+### `npm run build`
 
-## Iniciar el Servidor
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-El servidor se inicia usando YARN, ejecutar en la consola de Visual Studio Code el comando:
-```yarn start```
-El proyecto backend mostrará por consola el mensaje "Conexion Exitosa" y el proyecto frontend abrirá el navegador con el index de la aplicación.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Explorar las Funcionalidades
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Ya puede crear un usuario con diferentes roles y dependiendo del rol, crear proyectos, inscribirse a los mismos, añadir avances y observaciones, editarlas e interactuar con los diferentes modulos del Sistema de Información y Soporte a la Gestión de Proyectos de Investigación
+### `npm run eject`
 
-<p align="center">
-    <img src="https://github.com/kiadom/QuimbayaDevReloadedCiclo4/blob/main/images/footerlogin.png" width="100%" />
-</p>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
