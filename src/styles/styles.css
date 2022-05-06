@@ -1,0 +1,381 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Source Sans Pro, Helvetica, Arial, Aragon, Square721BT;
+  text-decoration: none;  
+}
+
+/*HEADER*/
+header{
+  height: 100px;
+  background: #3C539C;
+  padding: 0 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgcorp{
+  display: flex;
+  align-items: center;
+}
+
+.isotipo{
+  padding-right: 12px;
+}
+
+.logo a{
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.menu a{
+  color: #fff;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu{
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  transition: 0.4s;
+}
+
+.mostrar-menu{
+  order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+  color: #ffb19d;
+}
+
+#check{
+  display: none;
+}
+
+/*BANNER*/
+#banner{
+  padding: 0 50px;
+  background-image: url(../imagenes/banner.jpg);
+  height: 84vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner::before{
+  content: '' ;
+  background: rgba(86,52, 134, 0.82);
+  position: absolute;
+  width: 100%;
+  height: 84vh;
+  left: 0%;
+}
+
+.contenido-banner h2{
+  font-size: 30px;
+  font-weight: 333;
+  padding: 10px 0px;
+}
+
+.contenido-banner h2 span{
+  font-weight: 555;
+}
+
+.contenido-banner{
+  position: relative;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boton-empezar{
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #ffb19d;
+  border-radius: 2px;
+  padding: 17px 35px;
+  align-self: baseline;
+  transition: 00.4s;
+}
+
+.boton-empezar:hover{
+  background: #ffc2b360;
+}
+
+/*banner*/
+.contenido-banner h2{
+  font-size: 22px;
+  font-weight: 333;
+  padding: 10px 0px;
+}
+
+/*PERSONAS*/
+
+#personas{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#personas img{
+  border-radius: 100%;
+}
+
+#personas div{
+  padding: 30px 30px;
+}
+
+#personas div h4{
+  color: #4e5053;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+#personas div p{
+  color: #4e5053;
+  font-size: 18px;
+}
+
+.boton-saber-mas{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #4e5053;
+  border: 3px solid #4e5053;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+.boton-saber-mas:hover{
+  background: #4e5053;
+  color: #fff;
+}
+
+/*ICONOS*/
+
+#iconos{
+  padding: 0px 50px;
+  background: #4e5053 ;
+}
+
+.contenido-iconos{
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.contenido-iconos div{
+  flex: 1;
+  margin: 20px 0px;
+  border-right: 2px solid rgba(255, 255, 255, 0.5 ) ;
+}
+
+#icono-estampado{
+  border: none;
+}
+
+.contenido-iconos i{
+  color: #e9b628;
+}
+
+.contenido-iconos div h6{
+  color: #fff;
+  font-size: 20px;
+  font-weight:100;
+  margin: 10px 0px;
+}
+
+.contenido-iconos div p{
+  color: #828891;
+  font-size: 15px;
+}
+
+.boton-iconos{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.boton-saber-mas-iconos{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #e9b628;
+  border: 3px solid #e9b628;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+.boton-saber-mas-iconos:hover{
+  background: #e9b628;
+  color: #4e5053;
+}
+
+
+/*FORMULARIO*/
+
+#contacto{
+  background: #e9b628;
+  padding: 50px 0px;
+  color: #3C539C;
+}
+
+#contacto h4{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#contacto form{
+  max-width: 80%;
+  margin:  0 auto;
+}
+
+.datos-form{
+  display: flex;
+}
+
+.datos-form div{
+  padding: 10px;
+  flex: 1;
+}
+form label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea{
+  background: #e9b628;
+  border-radius: 10px;
+  border: 2px solid #3C539C;
+  padding: 10px 5px;
+  outline: 0;
+  color: #3C539C;
+  width: 100%;
+  font-size: medium;
+}
+
+form input:focus,
+form textarea:focus{
+  border-color: #3C539C;
+  box-shadow: 0 0 0 1px #3C539C;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+  color: #50639e;
+}
+
+.mensaje{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.boton-formulario{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.boton-saber-mas-form{
+  display: block;
+  padding: 10px 30px;
+  color: #3C539C;
+  border: 3px solid #3C539C;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+
+.boton-saber-mas-form:hover{
+      background: #3C539C;
+      color: #fff;
+}
+
+
+footer{
+  background: #3C539C;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0PX;
+}
+
+/*RESPONSIVE*/
+@media(max-width:768px){
+
+  /*HEADER*/
+
+  .mostrar-menu,
+  .esconder-menu{
+      display: block;
+  }
+
+  .menu{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      color: #fff;
+      background: #3C539C;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 100px 0px;
+      z-index: 100;
+      transition: 0.8s;
+  }
+
+  .menu a{
+      color: #fff;
+      display: block;
+      padding: 20px;
+  }
+
+  .menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+  color: #ffb19d;
+}
+
+  .esconder-menu{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+  }
+
+  #check:checked ~ .menu{
+      right: 0;
+  }
+  /*personas*/
+
+  #personas{
+      flex-direction: column;
+  }
+
+  /*iconos*/
+  .contenido-iconos{
+      flex-direction: column;
+  }
+
+  .contenido-iconos div{
+      border: none;
+  }
+
+  /*formulario*/
+
+  .datos-form{
+      flex-direction: column;
+  }
+}
+  
