@@ -30,6 +30,7 @@ function App() {
             </label>
         </nav>
     </header>
+    <main>
     <section id="banner">
         <div className="contenido-banner">
             <h2><span>A.D.U -</span> ARTE DIGITAL URBANO <br/> DISEÑO E IMPRESIÓN</h2>
@@ -109,6 +110,7 @@ function App() {
     <footer>
         <p>&copy2022 KIADOM</p>
     </footer>
+    </main>
 
     </div>
   );
