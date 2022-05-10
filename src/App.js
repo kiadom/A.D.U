@@ -18,16 +18,14 @@ function App() {
         </div>
         <input type="checkbox" name="" id="check"/>
         <label for="check" className="mostrar-menu">
-            &#8801   
-        </label>
+        <i class="fa-solid fa-bars"></i></label>
         <nav className="menu">
             <a href="#">INICIO</a>
             <a href="#">A.D.U</a>
             <a href="#">TIENDA</a>
             <a href="#">CONTACTO</a>
             <label for="check" className="esconder-menu">
-                &#215
-            </label>
+            <i class="fa-solid fa-xmark"></i></label>
         </nav>
     </header>
     <main>
