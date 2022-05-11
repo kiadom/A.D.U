@@ -35,19 +35,9 @@ function App() {
             </div>
         </section>
         <section id="personas">            
-                <Personas imagen={adu}/>            
-            <div>
-                <img src={tienda} alt=""/>
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" className="boton-saber-mas">Saber Más</a>         
-            </div>
-            <div>
-                <img src={atencion} alt=""/>
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" className="boton-saber-mas">Saber Más</a>         
-            </div>
+            <Personas imagen={adu}/>            
+            <Personas imagen={tienda}/>            
+            <Personas imagen={atencion}/>            
         </section>
         <section id="iconos">
             <div className="contenido-iconos">
