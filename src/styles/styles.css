@@ -124,6 +124,7 @@ header{
   display: flex;
   justify-content: space-between;
   text-align: center;
+  overflow: hidden;
 }
 
 #personas img{
@@ -361,6 +362,11 @@ footer{
 
   #personas{
       flex-direction: column;
+      overflow: hidden;
+  }
+
+  #personas img{
+    width: 180px;
   }
 
   /*iconos*/
