@@ -35,9 +35,9 @@ function App() {
             </div>
         </section>
         <section id="personas">            
-            <Personas imagen={adu}/>            
-            <Personas imagen={tienda}/>            
-            <Personas imagen={atencion}/>            
+            <Personas imagen={adu} titulo={'NOSOTROS'} descripcion={'Deja que te contemos una historia, acerca de nosotros'}/>            
+            <Personas imagen={tienda} titulo={'TIENDA'} descripcion={'Entra y descubre servicios y productos de tu interés'}/>            
+            <Personas imagen={atencion} titulo={'ATENCIÓN'} descripcion={'Contactanos para ayudarte a encontrar la solución'}/>            
         </section>
         <section id="iconos">
             <div className="contenido-iconos">
@@ -99,9 +99,9 @@ function App() {
 function Personas(props){
     return(
         <div>
-            <img src={props.imagen} alt='adu' />
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <img src={props.imagen} alt='area' />
+            <h4 className='titulo'>{props.titulo}</h4>
+            <p className='descripcion'>{props.descripcion}.</p>
             <a href="#" className="boton-saber-mas">Saber Más</a>         
         </div>
     );
